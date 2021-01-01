@@ -2,7 +2,7 @@
 
 This project demonstrates how we can select a service injected using @Any annotation using a Literal at run time.
 
-## Return a Service Based on Literal Annotation
+## Return a Service Base on Literal Annotation
 
 ```sh
 public InvestmentService<?> getInvestmentService(Investment investment) {
